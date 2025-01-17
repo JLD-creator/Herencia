@@ -61,4 +61,8 @@ abstract class Employe {
     }
 
 public abstract void showInfo();
+    public void move(int work_extra) {
+        work_hour += work_extra;
+        System.out.println("Horas  " + work_hour + " trabajadas mas");
+    }
 }
