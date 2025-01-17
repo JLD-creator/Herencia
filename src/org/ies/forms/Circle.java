@@ -47,6 +47,6 @@ public class Circle extends Form{
 
     @Override
     public void showInfo() {
-        System.out.println("Es un circulo de "+radio+" cm de radio");
+        System.out.println("Es un circulo de "+radio+" cm de radio y color "+color);
     }
 }

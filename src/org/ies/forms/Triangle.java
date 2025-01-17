@@ -58,6 +58,6 @@ public class Triangle extends Form{
 
     @Override
     public void showInfo() {
-        System.out.println("Es un triangulo de "+base+" cm de base y una altura de "+high+" cm.");
+        System.out.println("Es un triangulo de "+base+" cm de base y una altura de "+high+" cm y de color "+color);
     }
 }

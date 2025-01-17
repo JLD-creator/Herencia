@@ -47,6 +47,6 @@ public class Square extends Form{
 
     @Override
     public void showInfo() {
-        System.out.println("Es un cuadrado de "+size+" cm de lado.");
+        System.out.println("Es un cuadrado de "+size+" cm de lado y de color "+color);
     }
 }
