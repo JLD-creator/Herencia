@@ -9,6 +9,15 @@ public class Product_manager extends Employe{
         super(nif, name, surname, work_hour);
         this.proyect = proyect;
     }
+    @Override
+    public void showInfo() {
+        System.out.println("Soy un Manager productor y mi NIF es: "+nif+" mi nombre es "+name+ " y mis apellidos son: "+surname+" trabajo en el proyecto "+proyect+" "+work_hour+" horas.");
+    }
+
+    @Override
+    public void move(int work_extra) {
+        super.move(work_extra);
+    }
 
     public String getProyect() {
         return proyect;
@@ -43,8 +52,5 @@ public class Product_manager extends Employe{
                 '}';
     }
 
-    @Override
-    public void showInfo() {
-        System.out.println("Soy un Manager productor y mi NIF es: "+nif+" mi nombre es "+name+ " y mis apellidos son: "+surname+" trabajo en el proyecto "+proyect+" "+work_hour+" horas.");
-    }
+
 }
